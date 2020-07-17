@@ -80,14 +80,14 @@ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 	* https://deb.nodesource.com/setup_10.x is the url we want to pull the node setup script from.
 		* If you want to use a different version than 10.x, specify it here. e.g. setup_12.x
 	* | is called a pipe, it takes the input from the previous command and forwards it to the next one.
-	* sudo we already talked about
-		* -E is a parameter for sudo, which informs sudo that we want to keep the current environmental
+* sudo we already talked about
+	* -E is a parameter for sudo, which informs sudo that we want to keep the current environmental
 variables although we'll run the following command with administrator privileges
-	* bash - is used to execute the bash code we downloaded from the website. bash is it's own
+* bash - is used to execute the bash code we downloaded from the website. bash is it's own
 programming language, and it's one that most linux distros come with preinstalled.
-		* So basically, we download code via curl, and via the pipe operator, execute what we downloaded
+	* So basically, we download code via curl, and via the pipe operator, execute what we downloaded
 with the bash command, as administrator thanks to sudo.
-			* This is an incredibly unsafe, but pretty common, practice.
+		* This is an incredibly unsafe, but pretty common, practice.
 
 At this point, all we have done is prepare apt for installing the correct version of nodejs. The
 installation itself can now be done by running:
