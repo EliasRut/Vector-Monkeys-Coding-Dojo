@@ -58,6 +58,7 @@ administrator. The full command for Ubuntu (18.04) looks like this:
 ```
 sudo apt remove nodejs npm
 ```
+__Explanation:__
 * sudo will run the next provided command with administrator (root) privileges.
 * apt is the "Advanced Package Tool" which handles the installation and removal of software on many
 Linux distros.
@@ -73,6 +74,7 @@ distributors website. The command for that looks like this:
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 ```
+__Explanation:__
 * curl is a powerful Linux commandline tool to access web content
 	* -sL are parameters that change the way curl behaves. -sL is short form for -s -L
 		* -s stands for silent, so no download progress will be displayed
@@ -142,6 +144,7 @@ open a new Linux console and execute
 ```
 code .
 ```
+__Explanation:__
 * code is the command to start Visual Studio Code
 * . always refers to the current directory, ergo the directory your console has currently open. The
 code command takes a directory to be used as workspace as it's first parameter
