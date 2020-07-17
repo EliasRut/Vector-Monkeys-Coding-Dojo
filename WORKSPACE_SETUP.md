@@ -39,7 +39,7 @@ criteria ended up being:
 * Good IDE experience (syntax highlighting, smart suggestions, plugins etc)
 * Good integration with Linux on a Windows machine
 
-Visual Studio Code fits the bill well ¯\\_(ツ)_/¯
+Visual Studio Code fits the bill well ¯\\\_(ツ)\_/¯
 
 ## Step by Step guide
 For now we only have guides for Windows and Linux (Ubuntu to be precise). If you want to help out
