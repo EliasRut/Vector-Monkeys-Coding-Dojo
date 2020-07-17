@@ -1,4 +1,4 @@
-# Vector Monkeys Coding DOjo
+# Vector Monkeys Coding Dojo
 This repo is a place for resources for the up-and-coming vector monkeys coding dojo.
 Please consider it work in progress.
 
