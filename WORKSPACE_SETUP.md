@@ -46,8 +46,17 @@ For now we only have guides for Windows and Linux (Ubuntu to be precise). If you
 with a Mac guide, please let me know.
 
 ### For Windows
-The Windows setup needs a few additional steps prior to the shared setup steps, these will deal with
-setting up WSL.
+Befor we can use a Linux distribution on Windows we have to aktivart the Windows subsytem for linux 
+there are 2 easy ways to do so.
+
+* open a Windows powershell as administrator an run the commend:
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+* search Windows Cortana for "Windows feature on and off" scroll all the way down an set the checkbox 
+by Windows-Subsystem for Linux and klick OK.
+
+After both ways a system restart is requiert.
+
+Now we can download and install our favorit linux distribution.
 
 
 ### For both Windows and Linux
