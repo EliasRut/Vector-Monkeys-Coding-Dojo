@@ -51,7 +51,7 @@ there are 2 easy ways to do so.
 
 * open a Windows powershell as administrator an run the commend:
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-* search Windows Cortana for "Windows feature on and off" scroll all the way down an set the checkbox 
+* search Windows Cortana for "Windows feature on and off" scroll all the way down set the checkbox 
 by Windows-Subsystem for Linux and klick OK.
 
 After both ways a system restart is requiert.
