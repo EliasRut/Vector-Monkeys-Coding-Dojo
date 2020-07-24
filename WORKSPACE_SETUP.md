@@ -46,7 +46,7 @@ For now we only have guides for Windows and Linux (Ubuntu to be precise). If you
 with a Mac guide, please let me know.
 
 ### For Windows
-Befor we can use a Linux distribution on Windows we have to aktivart the Windows subsytem for linux 
+Befor we can use a Linux distribution on Windows we have to activat the Windows subsytem for linux 
 there are 2 easy ways to do so.
 
 * open a Windows powershell as administrator an run the commend:
