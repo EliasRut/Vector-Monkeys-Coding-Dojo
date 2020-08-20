@@ -35,7 +35,7 @@ Each domain should cover the following topics, in approximately the same order:
 * Objects
 * Classes
 * Exception handling
-* Asynchronous methods with callbacks
+* Asynchronous methods and callbacks
 * Promises
 * Inheritance
 
