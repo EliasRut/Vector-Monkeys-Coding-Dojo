@@ -24,13 +24,13 @@ and finally get a report of the current state of the business out of the system.
 ## Problem sets
 Each domain should cover the following topics, in approximately the same order:
 
-* Simple value types (Strings, booleans, integers, floats)
+* Simple value types (strings, booleans, integers, floats)
 * Return values
 * Variables and constants
 * Operations on variables
 * Functions
 * Conditional expressions
-* For Loops
+* For loops
 * Lists/Arrays
 * Objects
 * Classes
