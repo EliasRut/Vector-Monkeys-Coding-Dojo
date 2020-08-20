@@ -21,7 +21,7 @@ Your programming describes the laws and contents of a mystical fantasy realm. By
 The world of business needs your help to get those spreadsheets filled and the reports sent out. You write your code to integrate information
 and finally get a report of the current state of the business out of the system.
 
-## Problem sets
+## Lessons that should be covered
 Each domain should cover the following topics, in approximately the same order:
 
 * Simple value types (strings, booleans, integers, floats)
