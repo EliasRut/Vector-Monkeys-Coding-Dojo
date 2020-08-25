@@ -46,18 +46,17 @@ For now we only have guides for Windows and Linux (Ubuntu to be precise). If you
 with a Mac guide, please let me know.
 
 ### For Windows
-Befor we can use a Linux distribution on Windows we have to activat the Windows subsytem for linux 
-there are 2 easy ways to do so.
+Before we can use a Linux distribution on Windows, we have to activate the Windows subsytem for Linux. 
+There are 2 easy ways to do so.
 
-* open a Windows powershell as administrator an run the commend:
+* Open a Windows powershell as administrator an run the command:
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-* search Windows Cortana for "Windows feature on and off" scroll all the way down set the checkbox 
-by Windows-Subsystem for Linux and klick OK.
+* Search Windows Cortana for "Windows feature on and off" scroll all the way down until you find 
+"Windows-Subsystem for Linux", activate the checkbox and Save your changes.
 
-After both ways a system restart is requiert.
+Which ever way you choose, a system restart will be required.
 
-Now we can download and install our favorit linux distribution.
-
+Once that's done you can go aheadand download and install your favorite Linux distribution.
 
 ### For both Windows and Linux
 #### Nodejs + npm
