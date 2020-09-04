@@ -131,7 +131,7 @@ __Explanation:__
 		* -L is used to follow HTTP redirects instead of stopping the request, e.g. when a page moved.
 	* https://deb.nodesource.com/setup_10.x is the url we want to pull the node setup script from.
 		* If you want to use a different version than 10.x, specify it here. e.g. setup_12.x
-	* | is called a pipe, it takes the input from the previous command and forwards it to the next one.
+	* \| is called a pipe, it takes the input from the previous command and forwards it to the next one.
 * sudo we already talked about
 	* -E is a parameter for sudo, which informs sudo that we want to keep the current environmental
 variables although we'll run the following command with administrator privileges
