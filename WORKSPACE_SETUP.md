@@ -42,8 +42,50 @@ criteria ended up being:
 Visual Studio Code fits the bill well ¯\\\_(ツ)\_/¯
 
 ## Step by Step guide
-For now we only have guides for Windows and Linux (Ubuntu to be precise). If you want to help out
-with a Mac guide, please let me know.
+For now we only have guides for Windows 10, MacOs and Linux (Ubuntu to be precise). If you are running
+a different Windows version, please let us know.
+
+The instructions start with Mac since it's most different, and the Windows and Linux parts share most
+of the setup steps. If you are using Mac, please only do the steps highlighted in __For Mac__.
+
+If you are installing on Windows, please do everything listed under __For Windows__
+and under __For Windows and Linux__ - there are multiple such sections.
+
+If you are using Linux, please do everything listed under __For Linux__ and under __For Windows and Linux__.
+
+### For Mac
+We will be using the Xcode Command Line Tools for installing the above mentioned software. On Mavericks (10.9) 
+or above, you should be able to install what you need by trying to run it from the Terminal the very first time.
+
+#### Nodejs + npm
+Open the Terminal by pressing Command+Space to open Spotlight Search and entering Terminal then pressing Enter.
+In the Terminal window that appears, write
+```
+node -v
+```
+and press Enter.
+
+You can verify that everything works as it should by writing
+```
+node -v
+```
+and
+```
+npm -v
+```
+which should both give you back a version listing as response.
+
+#### git
+Open the Terminal by pressing Command+Space to open Spotlight Search and entering Terminal then pressing Enter.
+In the Terminal window that appears, write
+```
+$ git --version
+```
+and press Enter. Again, you should get a version listing as response once git is installed.
+
+#### Visual Studio Code
+You should be able to just download Visual Studio Code under the link here:
+[Link to visual studio code website](https://code.visualstudio.com/download)
 
 ### For Windows
 Before we can use a Linux distribution on Windows, we have to activate the Windows subsytem for Linux. 
@@ -56,7 +98,7 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 
 Which ever way you choose, a system restart will be required.
 
-Once that's done you can go aheadand download and install your favorite Linux distribution.
+Once that's done you can go ahead and download and install your favorite Linux distribution.
 
 ### For both Windows and Linux
 #### Nodejs + npm
@@ -132,10 +174,6 @@ git --version
 ```
 which should again show some kind of version number.
 
-#### Create a GitHub Account
-If you don't have one yet, please set up a GitHub Account. We'll use it all out through the course
-to get experience with Git.
-
 ### Only for Windows
 As a final step, go and install Visual Studio Code on your Windows environment - not your Linux
 machine. Careful, Visual Studio Code is not the same as Visual Studio.
@@ -161,3 +199,6 @@ code command takes a directory to be used as workspace as it's first parameter
 This should open a new Visual Studio Code instance, with your Linux home folder as the current
 working directory.
 
+## Create a GitHub Account
+If you don't have one yet, please set up a GitHub Account. We'll use it all out through the course
+to get experience with Git.
