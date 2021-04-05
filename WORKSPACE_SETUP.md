@@ -136,7 +136,7 @@ At this point, all we have done is install nvm, but not yet Node.js and npm itse
 After the restart, you can verify nvm is installed by typing
 
 ```
-nvm -v
+nvm --version
 ```
 
 this should print some version number. You can then install the current version of Node.js and npm by executing:
