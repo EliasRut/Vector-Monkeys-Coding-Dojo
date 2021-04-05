@@ -119,34 +119,32 @@ Linux distros.
 
 When you've understood what will happen once you execute the command above, go ahead and do so.
 
-When that is done, we will setup the installation of a new version of nodejs directly from the
-distributors website. The command for that looks like this:
+When that is done, we will install nvm - Node.js version manager.
 ```
-curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 ```
 __Explanation:__
 * curl is a powerful Linux commandline tool to access web content
-	* -sL are parameters that change the way curl behaves. -sL is short form for -s -L
-		* -s stands for silent, so no download progress will be displayed
-		* -L is used to follow HTTP redirects instead of stopping the request, e.g. when a page moved.
-	* https://deb.nodesource.com/setup_10.x is the url we want to pull the node setup script from.
-		* If you want to use a different version than 10.x, specify it here. e.g. setup_12.x
-	* \| is called a pipe, it takes the input from the previous command and forwards it to the next one.
-* sudo we already talked about
-	* -E is a parameter for sudo, which informs sudo that we want to keep the current environmental
-variables although we'll run the following command with administrator privileges
 * bash - is used to execute the bash code we downloaded from the website. bash is it's own
 programming language, and it's one that most linux distros come with preinstalled.
 	* So basically, we download code via curl, and via the pipe operator, execute what we downloaded
 with the bash command, as administrator thanks to sudo.
 		* This is an incredibly unsafe, but pretty common, practice.
 
-At this point, all we have done is prepare apt for installing the correct version of nodejs. The
-installation itself can now be done by running:
+At this point, all we have done is install nvm, but not yet Node.js and npm itself. But to use nvm, you will need to restart your WSL terminal once.
+
+After the restart, you can verify nvm is installed by typing
 
 ```
-sudo apt install nodejs
+nvm -v
 ```
+
+this should print some version number. You can then install the current version of Node.js and npm by executing:
+
+```
+nvm install node
+```
+
 
 Once this has finished, you should be able to verify that the installation was successful by running
 ```
